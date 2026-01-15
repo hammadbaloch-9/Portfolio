@@ -153,6 +153,127 @@ img{
     border-radius:20px;
     opacity: 0.5;
 }
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+body{
+    background:#1c1c1c;
+    color:#ffffff;
+    line-height:1.6;
+    padding:40px;
+}
+
+
+.head{
+    background:linear-gradient(135deg,#7c5cff,#6ae3c1);
+    padding:30px;
+    border-radius:12px;
+    margin-bottom:30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.head h1{
+    font-size:36px;
+    margin-bottom:10px;
+    color:#ffffff;
+}
+
+header p{
+    color:#f1f1f1;
+    font-size:14px;
+}
+
+/* SECTIONS */
+#summary{
+    background:#262626;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+#experience{
+    background:#262626;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+#education{
+     background:#262626;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+#skills{
+     background:#262626;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+/* TITLES */
+h2{
+    color:#6ae3c1;
+    font-size:22px;
+    margin-bottom:15px;
+    border-left:4px solid #7c5cff;
+    padding-left:12px;
+}
+
+h3{
+    color:#7c5cff;
+    margin-bottom:8px;
+}
+
+/* TEXT */
+p{
+    color:#cccccc;
+    font-size:15px;
+}
+
+/* LISTS */
+ul{
+    list-style:none;
+    margin-top:10px;
+}
+
+ul li{
+    padding:8px 0;
+    color:#e0e0e0;
+    border-bottom:1px solid #333;
+    font-size:14px;
+}
+
+ul li:last-child{
+    border-bottom:none;
+}
+
+/* HIGHLIGHT LIST ITEMS */
+ul li::before{
+    content:"▹";
+    color:#7c5cff;
+    margin-right:10px;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px){
+    body{
+        padding:20px;
+    }
+
+    header h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+}
 
 
 /*  RESPONSIVE  */
