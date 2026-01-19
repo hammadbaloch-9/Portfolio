@@ -280,6 +280,9 @@ ul li::before{
     padding:30px;
     border-radius:12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    /* display: flex;
+    gap: 50px; */
+    
 }
 
 .project-card{
@@ -290,6 +293,9 @@ ul li::before{
     background:#1f1f1f;
     padding:20px;
     border-radius:12px;
+    /* width:50%; */
+    /* height:80%; */
+
 }
 
 .project-box{
